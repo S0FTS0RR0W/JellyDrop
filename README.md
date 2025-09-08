@@ -21,3 +21,4 @@ Built with Flask and Docker, it provides a simple web interface for dropping fil
    ```bash
    git clone https://github.com/yourusername/jellydrop.git
    cd jellydrop
+   ./install-jellydrop.sh
