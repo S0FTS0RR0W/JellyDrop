@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JellyDrop</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Welcome to JellyDrop 🌙</h1>
+  <p>Your media deserves a gentle landing.</p>
+
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <div class="dropzone">
+      <input type="file" name="file" multiple>
+      <p>Drag & drop your files here or click to browse</p>
+    </div>
+    <button type="submit">Upload</button>
+  </form>
+
+  <div id="upload-status"></div>
+</body>
+</html>

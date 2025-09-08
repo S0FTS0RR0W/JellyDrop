@@ -1,0 +1,23 @@
+body {
+  background: #f0f4ff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  color: #333;
+}
+
+input[type="file"] {
+  margin: 20px;
+  padding: 10px;
+  border: 2px dashed #a0c4ff;
+  background-color: #e0f7fa;
+}
+
+button {
+  background-color: #a0c4ff;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
