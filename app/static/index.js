@@ -18,7 +18,7 @@ window.addEventListener('load', () => {
 
 // dark mode
 document.addEventListener('DOMContentLoaded', () => {
-  const toggleButton = document.getElementById('darkNodeToggle');
+  const toggleButton = document.getElementById('darkModeToggle');
   const body = document.body;
 
   // apply saved theme on load
