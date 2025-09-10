@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+  <meta charset="UTF-8">
   <title>JellyDrop</title>
+  <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
   <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-  <h1>Welcome to JellyDrop 🌙</h1>
+  <div class="splash-screen">
+    <div class="splash-overlay">
+      <h1>Welcome to JellyDrop</h1>
+      <p>Let your media flow gently ...</p>
+      <div class="loader"></div>
+    </div>
+  </div>
+    <button id="darkModeToggle">Toggle Dark Mode</button>
+
+  <h1>Welcome to JellyDrop</h1>
   <p>Your media deserves a gentle landing.</p>
 
   <form action="/upload" method="post" enctype="multipart/form-data">
@@ -18,5 +28,7 @@
   </form>
 
   <div id="upload-status"></div>
+
+  <script src="/static/index.js"></script>
 </body>
 </html>
